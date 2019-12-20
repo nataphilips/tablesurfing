@@ -1,35 +1,36 @@
-# BUILD A PRODUCT: Teamwork
+# PRODUCT NAME: TableSurfing
 
 ## Project Overview
 
-Teamwork is an ​ internal social network for employees of an organization. The goal of this
-application is to facilitate more interaction between colleagues and promote team bonding.
+TableSurfing is a social network for a freelancers and guests interested in office or table sharing. The goal of this application is to facilitate networking and interaction between freelancers and their host.
 
 ## Project Timelines
 
-Total Duration​: 5 weeks
+Total Duration​: 6 weeks
 
 ## Required Features
 
-1. Admin can create an employee user account.
-2. Admin/Employees can sign in.
-3. Employees can post gifs.
-4. Employees can write and post articles.
-5. Employees can edit their articles.
-6. Employees can delete their articles.
-7. Employees can delete their gifs post.
-8. Employees can comment on other colleagues' article post.
-9. Employees can comment on other colleagues' gif post.
-10. Employees can view all articles and gifs, showing the most recently posted articles or gifs
-    first.
-11. Employees can view a specific article.
-12. Employees can view a specific gif post.
+1. Host/guest can create an account.
+2. Host/guest can sign in.
+3. Host can post their available space.
+4. Guest can find an available space nearby with a glance.
+5. Host can view the guest profile.
+6. Guest ca view the host profile.
+7. Host can delete occupied listing.
+8. Guest can search by city or name a location.
+9. Guest and host can chat.
+10. Guest can get the direction via a map.
+11. Host can accept or decline a request.
+12. Guest can view a specific listing.
+13. Guest can book a space.
+14. Guest can post gifs.
+15. Guest can delete gifs.
+   
 
 ## Optional Features
 
-- Employees can view all articles that belong to a category (tag).
-- Employees can flag a comment, article and/or gif as inappropriate.
-- Admin can delete a comment, article and/or gif flagged as inappropriate.
+- Guests can view all listing that belong to a location.
+- Host can view all the available freelancers.
 
 ## Preparation Guidelines
 
@@ -41,25 +42,25 @@ Steps
 2. Create a ​ GitHub Project Board ​ on your newly created repo.
    Tip ​ : find how to create a GitHub Project ​ here . ​
 
-# Challenge 1: Create API endpoints & Integrate a Database
+## Challenge 1: Create API endpoints & Integrate a Database
 
-## Challenge Summary
+### Challenge Summary
 
 You are expected to create a set of ​ API endpoints​ listed under the ​ API Endpoints Specification
 section and ensure you persist your data using a PostgreSQL database.
 You are to write SQL queries that will help you write to and read from your database. The
 endpoints are to be secured with JSON Web Token (JWT).
 
-## Timelines
+### Timelines
 
-Duration: 2 weeks
+Duration: 3 weeks
 NB:
 
 - You are to create a separate branch for each feature in this challenge and then merge
   into your ​ develop ​ branch.
 - Do not use any ORM library for your database activities.
 
-## Tools
+### Tools
 
 - Server-side Framework: ​ Node​ / ​ Express
 - Linting Library: ​ ESLint
@@ -67,7 +68,7 @@ NB:
 - Testing Framework: ​ Mocha ​ ​ or ​ ​ Jasmine
 - Database: ​ PostgreSQL
 
-## Guidelines
+### Guidelines
 
 1. Setup ESLint and ensure that your codebase follows the specified style guide
    requirements.
@@ -81,18 +82,22 @@ NB:
    routes requiring authentication, using JSON Web Token (JWT).
 
 7. On GitHub Project Management Board, create user stories for setting up and testing API endpoints that do the following using databases:
-   ○ Admin can create an employee user account.
-   ○ Admin/Employees can sign in.
-   ○ Employees can create and share gifs with other colleagues.
-   ○ Employees can write and/or share articles with colleagues on topics of interest to
-   them.
-   ○ Employees can edit their articles.
-   ○ Employees can delete their articles.
-   ○ Employees can delete their gifs post.
-   ○ Employees can comment on other colleagues' article post.
-   ○ Employees can comment on other colleagues' gif post.
-   ○ Employees can view all articles, showing the most recently posted articles first.
-   ○ Employees can view a specific article.
+   - Host/guest can create an account.
+   - Host/guest can sign in.
+   - Host can post their available space.
+   - Guest can find an available space nearby with a glance.
+   - Host can view the guest profile.
+   - Guest can view the host profile.
+   - Host can delete occupied listing.
+   - Guest can search by city or name a location.
+   - Guest and host can chat.
+   - Guest can get the direction via a map.
+   - Host can accept or decline a request.
+   - Guest can view a specific listing.
+   - Guest can book a space.
+   - Guest can post gifs.
+   - Guest can delete gifs.
+   
 
 8. Use Cloudinary to store your gif files and only save the URL in your application’s
    database. See ​ cloudinary npm package​ .
@@ -109,9 +114,6 @@ NB:
     specification​ on page 10 working.
 17. On Github Project Management Board create user story to implement any or all of
     these optional features:
-    ○ Employees can view all articles that belong to a category (tag).
-    ○ Employees can flag a comment, article and/or gif as inappropriate.
-    ○ Admin can delete a comment, article and/or gif flagged as inappropriate.
     NB: Executing one or more features from the extra credits, in addition to the required features means you have exceeded expectations.
 18. Ensure the app gets hosted on ​ Heroku​ or any other publicly available cloud application
     platform.
