@@ -15,7 +15,7 @@ Total Duration​: 6 weeks
 3. Host can post their available space.
 4. Guest can find an available space nearby with a glance.
 5. Host can view the guest profile.
-6. Guest ca view the host profile.
+6. Guest can view the host profile.
 7. Host can delete occupied listing.
 8. Guest can search by city or name a location.
 9. Guest and host can chat.
@@ -23,9 +23,6 @@ Total Duration​: 6 weeks
 11. Host can accept or decline a request.
 12. Guest can view a specific listing.
 13. Guest can book a space.
-14. Guest can post gifs.
-15. Guest can delete gifs.
-   
 
 ## Optional Features
 
@@ -95,10 +92,7 @@ NB:
    - Host can accept or decline a request.
    - Guest can view a specific listing.
    - Guest can book a space.
-   - Guest can post gifs.
-   - Guest can delete gifs.
    
-
 8. Use Cloudinary to store your gif files and only save the URL in your application’s
    database. See ​ cloudinary npm package​ .
 9. Use API Blueprint, Slate, Apiary, Postman, ReDoc or Swagger to document your API.
