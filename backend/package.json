@@ -22,7 +22,7 @@
   "homepage": "https://github.com/nataphilips/tablesurfing#readme",
   "dependencies": {
     "env2": "^2.2.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "fs": "0.0.1-security",
     "moment": "^2.24.0",
     "uuid": "^3.4.0"
